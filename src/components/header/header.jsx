@@ -1,8 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Header.css'
 import logo from '../../assets/logo.png'
+import { FaBars } from "react-icons/fa6";
 
 const header = () => {
+    const [menuOpen, setMenuOpen] = useState(false);
+
   return (
     <div className='header'>
         <nav className='navbar'>
@@ -20,8 +23,11 @@ const header = () => {
                 <li>Project</li>
                 <li>Contact Us</li>
             </ul>
-            <div className='mobile-menu'>
-               
+            <div className='mobile-menu' onClick={() => setMenuOpen(!menuOpen)}>
+               <div className='tap'>
+                <FaBars size={22} color='white' />
+               </div>
+               {menuOpen && (
             <ul className='mmenu'>
                 <li>Home</li>
                 <li>About</li>
@@ -29,6 +35,7 @@ const header = () => {
                 <li>Self Projects</li>
                 <li>Contact Us</li>
             </ul>
+            )}
             </div>
         </nav>
     </div>
