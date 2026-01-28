@@ -20,6 +20,16 @@ const header = () => {
                 <li>Project</li>
                 <li>Contact Us</li>
             </ul>
+            <div className='mobile-menu'>
+               
+            <ul className='mmenu'>
+                <li>Home</li>
+                <li>About</li>
+                <li>Skills</li>
+                <li>Self Projects</li>
+                <li>Contact Us</li>
+            </ul>
+            </div>
         </nav>
     </div>
   )
