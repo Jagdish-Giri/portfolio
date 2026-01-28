@@ -3,10 +3,59 @@
     justify-content: center;
     align-items: center;
     height: 60px;
-
+    background: #222121;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+    max-width: 1250px;
+    box-shadow: 0 8px 15px rgba(0,0,0,0.25);
+}
+.header{
+   padding-left: 45px;
+   padding-right: 45px;
 }
 .menu {
     display: flex;
     list-style: none;
-    gap:  20px;
+    gap:  60px;
+    align-items: center;
+    
+}
+.menu li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 300;
+    color: white;
+}
+.menu li:hover {
+    cursor: pointer;
+    color: tomato;
+    transition: 0.3s;
+}
+.circle  {
+    background-color: #ff3700;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    border-radius: 20px;
+    color: white;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 450;
+    justify-content: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-left: 14%;
+    margin-right: 14%;
+}
+.logo p{
+    color: white;
+    font-size: 1rem;
 }

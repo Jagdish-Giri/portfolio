@@ -1,16 +1,22 @@
 import React from 'react'
 import './Header.css'
+import logo from '../../assets/logo.png'
 
 const header = () => {
   return (
-    <div>
+    <div className='header'>
         <nav className='navbar'>
             <ul className='menu'>
                 <li>Home</li>
                 <li>About</li>
-            </ul>
-            <img src="" alt="" />
-            <ul className='menu'>
+                <li>Skills</li>
+             </ul>
+                <span className='logo'>
+                    <p className='circle'>G</p>
+                    <p>Girish</p>
+                </span>
+                <ul className='menu'>
+                <li>Self Projects</li>
                 <li>Project</li>
                 <li>Contact Us</li>
             </ul>
