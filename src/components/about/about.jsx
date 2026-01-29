@@ -5,7 +5,7 @@ import bg from '../../assets/bg.png'
 const About = () => {
   return (
     <div >
-        <img className='bg' src="" alt="" />
+        
         <div className='about'>
              <div className="left">
                 <img src="" alt="" />

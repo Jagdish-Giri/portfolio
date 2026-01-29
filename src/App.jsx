@@ -5,6 +5,10 @@ import Hero from './components/Hero/Hero.jsx'
 import Slider from './components/slider/slider.jsx'
 import Services from './components/servicesSection/Services.jsx'
 import About from './components/about/about.jsx'
+import About2 from './components/about/About2.jsx'
+import Tools from './components/Tool/Tools.jsx'
+import Latest from './components/Latest/Latest.jsx'
+import Edu from './components/Education/edu.jsx'
 
 
 
@@ -16,6 +20,10 @@ const App = () => {
     <Slider />
     <Services />
     <About />
+    <About2 />
+    <Tools />
+    <Latest />
+    <Edu />
     <Footer />
     </>
   )

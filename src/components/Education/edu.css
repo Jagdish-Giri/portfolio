@@ -1,0 +1,22 @@
+.educard{
+    margin-left: 45px;
+    margin-right: 45px;
+    padding: 20px 40px;
+    background-color: #222331;
+    width: 200px;
+    border-radius: 20px;
+
+}
+
+.icon1{
+    font-size: 2rem;
+    color: #ff3700;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-bottom: 15px;
+}
+.p2{
+    margin-top: 10px;
+    font-size: 1.1rem;
+    color: white;
+}
