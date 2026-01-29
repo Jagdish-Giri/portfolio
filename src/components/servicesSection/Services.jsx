@@ -7,7 +7,7 @@ const Services = () => {
     <div className='services'>
         <h2 className='h2'><span className='color'>■</span> Service</h2>
         <div className='row'>
-            <h1><span className='color'>Services </span>I Provide</h1>
+            <h1 className=''><span className='color'>Services </span>I Provide</h1>
         </div>
         <div className="cards">
             <div className="card">
@@ -26,7 +26,7 @@ const Services = () => {
                 <p className='para'>I design intutive and engaging interfaces that put users first. My goal is to create visually appealing, easy-to-navigate designs that deliver smooth and enjoyable digital experiences.</p>
                 <button className='btnc'>Hire Me</button>
             </div>
-            <div className="card">
+            <div className="card3">
                 <div className='icon'>
                     <p className='p'>{"</>"}</p>
                 </div>

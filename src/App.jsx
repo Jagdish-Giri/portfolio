@@ -4,6 +4,7 @@ import Footer from './components/footer/footer.jsx'
 import Hero from './components/Hero/Hero.jsx'
 import Slider from './components/slider/slider.jsx'
 import Services from './components/servicesSection/Services.jsx'
+import About from './components/about/about.jsx'
 
 
 
@@ -14,6 +15,7 @@ const App = () => {
     <Hero />
     <Slider />
     <Services />
+    <About />
     <Footer />
     </>
   )

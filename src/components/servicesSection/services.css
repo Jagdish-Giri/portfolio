@@ -31,6 +31,8 @@
 .cards{
     display: flex;
     justify-content: center;
+    padding-top: 65px;
+    z-index: 1;
 }
 .card{
     background-color: #222331;
@@ -44,6 +46,21 @@
     flex-direction: column;
     align-items: center;
     margin-top: 40px;
+    z-index: 1;
+}
+.card3{
+     background-color: #222331;
+    padding: 20px;
+    border-radius: 15px;
+    margin-right: -20px;
+    width: 260px;
+    height: 370px;
+    box-shadow: 8px 8px 15px rgba(0,0,0,0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    z-index: 1;
 }
 .icon{
     background-color: white;
@@ -77,8 +94,35 @@
     border-radius: 25px;
     cursor: pointer;
 }
-.card:hover{
-    transform: translateY(-10px);
+.card:hover,
+.card3:hover{
+    transform: translateY(-20px);
     transition: 0.3s ease-in-out all;
     cursor: pointer;
+}
+
+.wrap{
+    z-index: 1;
+    margin-top: -100px;
+    width: 120%;
+}
+.slider1{
+    rotate: 10deg;
+    margin-top: 285px;
+}
+.slider2{
+    transform: scale(1);
+    rotate: 10deg;
+    margin-top: 40px;
+}
+.slider3{
+    rotate: -5deg;
+    margin-top: -160px;
+}
+.r{
+    background-color: #222331;
+}
+
+.wrap{
+    margin-top: -600px;
 }
