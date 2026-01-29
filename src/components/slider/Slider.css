@@ -1,0 +1,41 @@
+.slider{
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    width: 100vw;
+
+}
+
+.marquee-content{
+    background-color: #ff3700;
+    padding: 15px ;
+    color: white;
+    z-index: 1;
+    display: inline-block;
+    white-space: nowrap;
+    transform: translateX(-20%);
+    animation: marquee 200s linear infinite;
+}
+@keyframes marquee{
+    from {
+        transform: translateX(-20%);
+    }
+    to {
+        transform: translateX(-70%);
+    }
+}
+.marquee-content:hover{
+    animation-play-state: paused;
+}
+.background2{
+    background-color: #222331;
+    height: 1.9cm;
+    z-index: -1;
+    margin-top: -75px;
+    rotate: 178deg;
+    position: relative;
+}
+
+
