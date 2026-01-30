@@ -5,7 +5,14 @@
     background-color: #222331;
     width: 200px;
     border-radius: 20px;
-
+    margin-top: 55px;
+    box-shadow: 0 4px 8px 0 #222331;
+    border: 5px solid #ff3700;
+}
+.educard:hover{
+    box-shadow: 0 4px 8px 0 #222331;
+    transform: translateY(-10px);
+    transition: 0.3s ease-in-out;
 }
 
 .icon1{

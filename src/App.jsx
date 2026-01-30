@@ -9,6 +9,7 @@ import About2 from './components/about/About2.jsx'
 import Tools from './components/Tool/Tools.jsx'
 import Latest from './components/Latest/Latest.jsx'
 import Edu from './components/Education/edu.jsx'
+import Contact from './components/contact/Contact.jsx'
 
 
 
@@ -23,7 +24,7 @@ const App = () => {
     <About2 />
     <Tools />
     <Latest />
-    <Edu />
+    <Contact />
     <Footer />
     </>
   )

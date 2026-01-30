@@ -1,0 +1,51 @@
+.iconn{
+    color: white;
+    font-size: 2.5rem;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #ff3700;
+}
+.left{
+    width:40%;
+}
+.h2{
+    margin-top: 15px;
+}
+.iconcard{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 68px;
+    margin-bottom: 38px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.formrow {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 15px;
+}
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: black;
+    border: 1px solid #ccc;
+}
+.p3{
+    margin-bottom: 6px;
+}
+.right{
+    width: 40%;
+}
