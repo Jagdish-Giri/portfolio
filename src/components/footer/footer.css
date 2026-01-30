@@ -1,0 +1,12 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1.5rem 9%;
+    background: #ff3700;
+    color: white;
+}
+.footer-text p{
+    font-size: 1rem;
+}

@@ -11,6 +11,10 @@
     max-width: 1250px;
     box-shadow: 0 8px 15px rgba(0,0,0,0.25);
 }
+.a{
+    color: white;
+    text-decoration: none;
+}
 .header{
    padding-left: 45px;
    padding-right: 45px;

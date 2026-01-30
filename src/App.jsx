@@ -2,7 +2,7 @@ import React from 'react'
 import Header from './components/header/header.jsx'
 import Footer from './components/footer/footer.jsx'
 import Hero from './components/Hero/Hero.jsx'
-import Slider from './components/slider/slider.jsx'
+import Slider from './components/slider/Slider.jsx'
 import Services from './components/servicesSection/Services.jsx'
 import About from './components/about/about.jsx'
 import About2 from './components/about/About2.jsx'
@@ -16,6 +16,7 @@ import Contact from './components/contact/Contact.jsx'
 const App = () => {
   return (
     <>
+    <div className='main-content'>
     <Header />
     <Hero />
     <Slider />
@@ -25,8 +26,10 @@ const App = () => {
     <Tools />
     <Latest />
     <Contact />
+    </div>
     <Footer />
     </>
+    
   )
 }
 

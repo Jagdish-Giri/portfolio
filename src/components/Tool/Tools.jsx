@@ -8,7 +8,7 @@ import { SiAdobephotoshop } from "react-icons/si";
 
 const Tools = () => {
   return (
-    <div>
+    <div id='skills'>
         <h1 className='h1'>Exploring <span className='color'>Tools</span></h1>
             <p className='p1'>Knowing bit about tools</p>
 

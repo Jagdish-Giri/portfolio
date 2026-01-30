@@ -52,7 +52,7 @@
      background-color: #222331;
     padding: 20px;
     border-radius: 15px;
-    margin-right: -20px;
+    margin-left: 20px;
     width: 260px;
     height: 370px;
     box-shadow: 8px 8px 15px rgba(0,0,0,0.2);
@@ -103,7 +103,7 @@
 
 .wrap{
     z-index: 1;
-    margin-top: -100px;
+    margin-bottom: 100px;
     width: 120%;
 }
 .slider1{

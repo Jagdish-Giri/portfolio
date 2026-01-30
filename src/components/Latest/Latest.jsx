@@ -3,7 +3,7 @@ import './latest.css'
 
 const Latest = () => {
   return (
-    <div className='latest'>
+    <div className='latest' id='projects'>
         <h1 className='h1'>My Latest <span className='color'>Projects</span></h1>
             <p className='p1'>See my recent work and projects</p>
             <div className='toolcard'>
