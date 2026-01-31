@@ -1,5 +1,6 @@
 import React from 'react'
 import './Aboutpage.css'
+import { Link } from 'react-router-dom';
 
 const Aboutpage = () => {
   return (
@@ -11,9 +12,9 @@ const Aboutpage = () => {
             Let's connect and create soething amazing together!
         </p>
         <div className='aboutpage-links'>
-            <a href="mailto:developergirishgiri@gmail.com" className='aboutpage-link'> developergirishgiri@gmail.com</a>
-            <a href="https:www.linkedin.com/developergirishgiri" target='_blank' rel='noopener noreferrer' className='aboutpage-link'>LinkedIn</a>
-            <a href="https://www.instagram.com/developergirishgiri" target='_blank' rel='noopener noreferrer'>Instagram</a>
+            <Link to="mailto:developergirishgiri@gmail.com" className='aboutpage-link'> developergirishgiri@gmail.com</Link>
+            <Link to="https:www.linkedin.com/developergirishgiri" target='_blank' rel='noopener noreferrer' className='aboutpage-link'>LinkedIn</Link>
+            <Link to="https://www.instagram.com/developergirishgiri" target='_blank' rel='noopener noreferrer'>Instagram</Link>
 
         </div>
     </div>

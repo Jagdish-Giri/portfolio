@@ -2,6 +2,7 @@ import React, { useRef } from 'react'
 import emailjs from '@emailjs/browser'
 import { IoMdMail } from "react-icons/io";
 import { FaInstagram, FaLinkedin } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 
 const Contactpage = () => {
     const form = useRef();
@@ -33,15 +34,15 @@ const Contactpage = () => {
             <div className='icons'>
                 <div className='iconcard'>
                     <IoMdMail className='iconn' />
-                    <p><a href="mailto:developergirishgiri@gmail.com">developergirishgiri@gmail.com</a></p>
+                    <p><Link to="mailto:developergirishgiri@gmail.com">developergirishgiri@gmail.com</Link></p>
                 </div>
                 <div className='iconcard'>
                     <FaLinkedin className='iconn' />
-                    <p><a href="https://www.linkedin.com/in/girish-giri-569b453a4/">Linked In</a></p>
+                    <p><Link to="https://www.linkedin.com/in/girish-giri-569b453a4/">Linked In</Link></p>
                 </div>
                 <div className='iconcard'>
                     <FaInstagram className='iconn' />
-                    <p><a href="https://www.instagram.com/developergirishgiri/">Instagram</a></p>
+                    <p><Link to="https://www.instagram.com/developergirishgiri/">Instagram</Link></p>
                 </div>
             </div>
         </div>
