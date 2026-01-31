@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import Header from './components/header/header.jsx'
 import Footer from './components/footer/footer.jsx'
 import Hero from './components/Hero/Hero.jsx'
@@ -19,10 +19,10 @@ import Contactpage from './components/pages/Contactpage.jsx';
 
 
 
+
 const App = () => {
   return (
     <>
-    <Router>
       <Header />
     <div className='main-content'>
     <Routes>
@@ -38,15 +38,15 @@ const App = () => {
     <Contact />
     </>
       } />
-      <Route path='/about' element={<Aboutpage />} />
-      <Route path='/skills' element={<Skills />} />
-      <Route path='/selfproject' element={<Selfproject />} />
-      <Route path='/projects' element={<Projectpage />} />
-      <Route path='/contact' element={<Contactpage />} />
+      <Route path='#/about' element={<Aboutpage />} />
+      <Route path='#/skills' element={<Skills />} />
+      <Route path='#/selfproject' element={<Selfproject />} />
+      <Route path='#/projects' element={<Projectpage />} />
+      <Route path='#/contact' element={<Contactpage />} />
     </Routes>
     </div>
     <Footer />
-    </Router>
+    
     </>
     
   )

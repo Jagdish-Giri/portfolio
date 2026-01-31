@@ -16,7 +16,7 @@ const Services = () => {
                 </div>
                 <h3 className='h3'>Web Developement</h3>
                 <p className='para'>I am certified web developer focused on precision and performance. Every website I build is pixel-perfect, fully responsive, and optimized for a seamless user experience across all devices.</p>
-                <a className='a' href="/contact"><button className='btnc'>Hire Me</button></a>
+                <a className='a' href="#/contact"><button className='btnc'>Hire Me</button></a>
             </div>
             <div className="card">
                 <div className='icon'>
@@ -24,7 +24,7 @@ const Services = () => {
                 </div>
                 <h3 className='h3'>UI\UX Designing</h3>
                 <p className='para'>I design intutive and engaging interfaces that put users first. My goal is to create visually appealing, easy-to-navigate designs that deliver smooth and enjoyable digital experiences.</p>
-                <a className='a' href="/contact"><button className='btnc'>Hire Me</button></a>
+                <a className='a' href="#/contact"><button className='btnc'>Hire Me</button></a>
             </div>
             <div className="card3">
                 <div className='icon'>
@@ -32,7 +32,7 @@ const Services = () => {
                 </div>
                 <h3 className='h3'>App Design</h3>
                 <p className='para'>I craft responsive and functional app designs that balance aesthetics with usability. Each app is designed to be fast, user-friendly, and aligned with brand's vision.</p>
-                <a className='a' href="/contact"><button className='btnc'>Hire Me</button></a>
+                <a className='a' href="#/contact"><button className='btnc'>Hire Me</button></a>
             </div>
         </div>
     </div>

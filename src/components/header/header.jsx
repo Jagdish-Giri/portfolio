@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import './Header.css'
 import logo from '../../assets/logo.png'
 import { FaBars } from "react-icons/fa6";
+import { Link } from 'react-router-dom';
 
 const header = () => {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -10,18 +11,18 @@ const header = () => {
     <div className='header'>
         <nav className='navbar'>
             <ul className='menu'>
-                <li><a className='a' href="/">Home</a></li>
-                <li><a className='a' href="/about">About</a></li>
-                <li><a  className='a'href="/skills">Skills</a></li>
+                <li><Link className='a' to="/">Home</Link></li>
+                <li><Link className='a' to="/about">About</Link></li>
+                <li><Link  className='a' to="/skills">Skills</Link></li>
              </ul>
                 <span className='logo'>
                     <p className='circle'>G</p>
                     <p>Girish</p>
                 </span>
                 <ul className='menu'>
-                <li><a className='a' href="/selfproject">Self Projects</a></li>
-                <li><a className='a' href="/projects">Project</a></li>
-                <li><a className='a' href="/contact">Contact Us</a></li>
+                <li><Link className='a' to="/selfproject">Self Projects</Link></li>
+                <li><Link className='a' to="/projects">Project</Link></li>
+                <li><Link className='a' to="/contact">Contact Us</Link></li>
             </ul>
             <div className='mobile-menu' onClick={() => setMenuOpen(!menuOpen)}>
                <div className='tap'>
