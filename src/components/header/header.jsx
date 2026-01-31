@@ -19,7 +19,7 @@ const header = () => {
                     <p>Girish</p>
                 </span>
                 <ul className='menu'>
-                <li><a className='a' href="/projects">Self Projects</a></li>
+                <li><a className='a' href="/selfproject">Self Projects</a></li>
                 <li><a className='a' href="/projects">Project</a></li>
                 <li><a className='a' href="/contact">Contact Us</a></li>
             </ul>
