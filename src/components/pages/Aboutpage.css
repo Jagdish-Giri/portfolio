@@ -1,0 +1,37 @@
+.aboutpage-container {
+    max-width: 900px;
+    margin: 60px auto 0 auto;
+    padding: 2.5rem 2rem;
+    background: rgba(255, 247, 230, 0.95);
+    border-radius: 18px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.07);
+    font-family: "Outfit", sans-serif;
+    margin-bottom: 15px;
+}
+.aboutpage-title {
+    color: #ff3700;
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.aboutpage-text{
+    font-size: 1.15rem;
+    color: #222331;
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+}
+.aboutpage-links {
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+.aboutpage-link{
+    color: #ff3700;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 02s;
+}
+.aboutpage-link:hover{
+    color: #222331;
+}
