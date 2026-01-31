@@ -16,4 +16,4 @@ const Selfproject = () => {
   )
 }
 
-export default Selfproject
+export default Selfproject;

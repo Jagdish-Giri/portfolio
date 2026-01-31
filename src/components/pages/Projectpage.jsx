@@ -16,4 +16,4 @@ const Projectpage = () => {
   )
 }
 
-export default Projectpage
+export default Projectpage;

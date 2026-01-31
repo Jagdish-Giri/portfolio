@@ -14,4 +14,4 @@ const Latest = () => {
   )
 }
 
-export default Latest
+export default Latest;

@@ -38,11 +38,11 @@ const App = () => {
     <Contact />
     </>
       } />
-      <Route path='#/about' element={<Aboutpage />} />
-      <Route path='#/skills' element={<Skills />} />
-      <Route path='#/selfproject' element={<Selfproject />} />
-      <Route path='#/projects' element={<Projectpage />} />
-      <Route path='#/contact' element={<Contactpage />} />
+      <Route path='/about' element={<Aboutpage />} />
+      <Route path='/skills' element={<Skills />} />
+      <Route path='/selfproject' element={<Selfproject />} />
+      <Route path='/projects' element={<Projectpage />} />
+      <Route path='/contact' element={<Contactpage />} />
     </Routes>
     </div>
     <Footer />

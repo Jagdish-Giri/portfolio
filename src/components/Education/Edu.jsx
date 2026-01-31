@@ -17,4 +17,4 @@ const Edu = () => {
   )
 }
 
-export default Edu
+export default Edu;
