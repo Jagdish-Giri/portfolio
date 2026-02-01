@@ -16,7 +16,7 @@ const header = () => {
                 <li><Link  className='a' to="/skills">Skills</Link></li>
              </ul>
                 <span className='logo'>
-                    <p className='circle'>G</p>
+                    <p className='circlelogo'>G</p>
                     <p>Girish</p>
                 </span>
                 <ul className='menu'>
@@ -30,11 +30,12 @@ const header = () => {
                </div>
                {menuOpen && (
             <ul className='mmenu'>
-                <li>Home</li>
-                <li>About</li>
-                <li>Skills</li>
-                <li>Self Projects</li>
-                <li>Contact Us</li>
+                <li><Link className='a' to="/">Home</Link></li>
+                <li><Link className='a' to="/about">About</Link></li>
+                <li><Link  className='a' to="/skills">Skills</Link></li>
+                <li><Link className='a' to="/selfproject">Self Projects</Link></li>
+                <li><Link className='a' to="/projects">Project</Link></li>
+                <li><Link className='a' to="/contact">Contact Us</Link></li>
             </ul>
             )}
             </div>

@@ -22,3 +22,12 @@
     background-color: #ff3700;
     border-radius: 30px;
 }
+@media (max-width: 1046px){
+    .about2{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .ps{
+        padding: 30px;;
+    }
+}

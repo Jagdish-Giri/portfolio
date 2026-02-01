@@ -3,7 +3,7 @@
     text-align: center;
     align-items: center;
     justify-content: center;
-    padding: 20px 40px;
+    padding: 30px 50px;
     border-radius: 20px;
     margin-left: auto;
     margin-right: auto;
@@ -23,8 +23,17 @@
     transition: 0.2s ease-in-out;
     transform: translateY(-20px);
     border: 2px solid #ff3700;
+    .icon{
+        color: #ff3700;
+        transition: 0.2s ease-in-out;
+    }
 }
-.icon:hover{
-    color: #ff3700;
-    transition: 0.2s ease-in-out;
+
+@media (max-width: 1046px){
+    .collections{
+        flex-direction: column;
+        margin-left: 15px;
+        margin-right: 15px;
+        gap: 30px;
+    }
 }

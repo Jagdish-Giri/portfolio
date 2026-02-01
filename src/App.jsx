@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { Routes, Route } from 'react-router-dom';
 import Header from './components/header/header.jsx'
 import Footer from './components/footer/footer.jsx'
@@ -16,13 +16,26 @@ import Skills from './components/pages/Skills.jsx';
 import Selfproject from './components/pages/Selfproject.jsx';
 import Projectpage from './components/pages/Projectpage.jsx';
 import Contactpage from './components/pages/Contactpage.jsx';
+import Preloader from './components/Preloader.jsx';
 
 
 
 
 const App = () => {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(false);
+    }, 2000)
+  }, []);
+
   return (
     <>
+    {loading ? (
+      <Preloader />
+    ) : (
+      <>
       <Header />
     <div className='main-content'>
     <Routes>
@@ -46,7 +59,8 @@ const App = () => {
     </Routes>
     </div>
     <Footer />
-    
+    </>
+    )}
     </>
     
   )

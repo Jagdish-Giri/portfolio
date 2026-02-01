@@ -37,5 +37,15 @@
     rotate: 178deg;
     position: relative;
 }
+@media (max-width: 1046px){
+    .marquee-content{
+        font-size: 0.8rem;
+        height: 4rem;
+    }
+    .background2{
+        height: 4rem;
+        width: 15cm;
+    }
+}
 
 

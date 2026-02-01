@@ -23,7 +23,7 @@ const Contactpage = () => {
     };
   return (
     <div className='contact' id='contact'>
-        <div className='left'>
+        <div className='leftc'>
             <p>Contact Us</p>
             <h1 className='h2'>Get In <span className='color'>Touch</span></h1>
             <h1 className='big'>Let's Talk for <span className='color'>Your Projects</span></h1>
@@ -45,7 +45,7 @@ const Contactpage = () => {
                 </div>
             </div>
         </div>
-        <div className='right'>
+        <div className='rightc'>
             <form ref={form} onSubmit={sendEmail}>
                 <div className="formrow">
                     <div className='f'>

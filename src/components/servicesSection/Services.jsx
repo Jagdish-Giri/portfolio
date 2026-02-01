@@ -27,7 +27,7 @@ const Services = () => {
                 <p className='para'>I design intutive and engaging interfaces that put users first. My goal is to create visually appealing, easy-to-navigate designs that deliver smooth and enjoyable digital experiences.</p>
                 <Link className='a' to="/contact"><button className='btnc'>Hire Me</button></Link>
             </div>
-            <div className="card3">
+            <div className="card">
                 <div className='icon'>
                     <p className='p'>{"</>"}</p>
                 </div>
