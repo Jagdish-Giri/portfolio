@@ -2,20 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://jagdish-giri.github.io/portfolio/</loc>
-  </url>
-  <url>
-    <loc>https://jagdish-giri.github.io/portfolio/about</loc>
-  </url>
-  <url>
-    <loc>https://jagdish-giri.github.io/portfolio/skills</loc>
-  </url>
-  <url>
-    <loc>https://jagdish-giri.github.io/portfolio/selfproject</loc>
-  </url>
-  <url>
-    <loc>https://jagdish-giri.github.io/portfolio/projects</loc>
-  </url>
-  <url>
-    <loc>https://jagdish-giri.github.io/portfolio/contact</loc>
+    <priority>1.0</priority>
+    <changefreq>weekly</changefreq>
   </url>
 </urlset>

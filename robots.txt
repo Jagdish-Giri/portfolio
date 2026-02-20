@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://jagdish-giri.github.io/portfolio/sitemap.xml
