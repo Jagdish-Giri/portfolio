@@ -6,77 +6,149 @@
     <title>Privacy Policy - Girish Giri | Best Web Developer in India</title>
     <meta name="description" content="Privacy Policy for Girish Giri's portfolio website. Learn how we handle your data and protect your privacy.">
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+        
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: 'Outfit', sans-serif;
             line-height: 1.8;
-            color: #333;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #f5f5f5;
+            background: linear-gradient(135deg, #1a1a2e 0%, #222331 50%, #16213e 100%);
             padding: 20px;
+            min-height: 100vh;
+            animation: fadeIn 0.6s ease-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
         }
         .container {
-            max-width: 900px;
+            max-width: 1000px;
             margin: 40px auto;
-            background: white;
-            padding: 40px;
-            border-radius: 15px;
-            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            background: rgba(34, 35, 49, 0.95);
+            backdrop-filter: blur(10px);
+            padding: 50px;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.5), 0 0 40px rgba(255, 55, 0, 0.1);
+            border: 1px solid rgba(255, 55, 0, 0.2);
+            animation: slideInUp 0.8s ease-out;
+        }
+        @keyframes slideInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
         }
         h1 {
-            color: #667eea;
-            margin-bottom: 20px;
-            font-size: 2.5em;
+            color: #ff3700;
+            margin-bottom: 25px;
+            font-size: 2.8em;
             text-align: center;
+            font-weight: 700;
+            text-shadow: 0 0 20px rgba(255, 55, 0, 0.3);
+            animation: fadeInDown 0.8s ease-out;
+        }
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
         }
         h2 {
-            color: #764ba2;
-            margin-top: 30px;
-            margin-bottom: 15px;
-            font-size: 1.8em;
-            border-bottom: 3px solid #667eea;
-            padding-bottom: 10px;
+            color: #ff6b00;
+            margin-top: 35px;
+            margin-bottom: 20px;
+            font-size: 1.9em;
+            font-weight: 600;
+            border-bottom: 3px solid #ff3700;
+            padding-bottom: 12px;
+            position: relative;
+        }
+        h2::after {
+            content: '';
+            position: absolute;
+            bottom: -3px;
+            left: 0;
+            width: 80px;
+            height: 3px;
+            background: #ff9500;
         }
         h3 {
-            color: #555;
-            margin-top: 20px;
-            margin-bottom: 10px;
+            color: #ff9500;
+            margin-top: 25px;
+            margin-bottom: 12px;
+            font-size: 1.4em;
+            font-weight: 600;
         }
         p {
-            margin-bottom: 15px;
+            margin-bottom: 18px;
             text-align: justify;
+            color: #e0e0e0;
+            line-height: 1.9;
         }
         ul {
             margin-left: 30px;
-            margin-bottom: 15px;
+            margin-bottom: 18px;
+            color: #e0e0e0;
         }
         li {
-            margin-bottom: 8px;
+            margin-bottom: 10px;
+            position: relative;
+            padding-left: 10px;
+        }
+        li::marker {
+            color: #ff3700;
         }
         .last-updated {
             text-align: center;
             font-style: italic;
-            color: #666;
-            margin-top: 40px;
-            padding-top: 20px;
-            border-top: 1px solid #ddd;
+            color: #999;
+            margin-top: 50px;
+            padding-top: 25px;
+            border-top: 1px solid rgba(255, 55, 0, 0.3);
         }
         .contact-info {
-            background: #f8f9fa;
-            padding: 20px;
-            border-radius: 10px;
-            margin-top: 30px;
+            background: rgba(255, 55, 0, 0.1);
+            padding: 25px;
+            border-radius: 12px;
+            margin-top: 35px;
+            border: 1px solid rgba(255, 55, 0, 0.3);
         }
         a {
-            color: #667eea;
+            color: #ff3700;
             text-decoration: none;
-            font-weight: bold;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+        a::after {
+            content: '';
+            position: absolute;
+            bottom: -2px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: #ff3700;
+            transition: width 0.3s ease;
         }
         a:hover {
-            text-decoration: underline;
+            color: #ff6b00;
+            text-decoration: none;
+        }
+        a:hover::after {
+            width: 100%;
         }
         .back-link {
             display: inline-block;

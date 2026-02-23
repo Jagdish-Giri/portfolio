@@ -11,7 +11,7 @@
     />
     <meta
       name="keywords"
-      content="Girish Giri, best web developer in India, best web developer in Delhi, top web developer India, web developer Delhi NCR, professional web developer India, Girish Giri web developer, web developer portfolio, frontend developer, React developer, JavaScript developer, HTML CSS, UI UX design, responsive web design, modern web apps, landing page design, personal portfolio website, website redesign, performance optimization, freelance web developer India, hire web developer India, hire web developer Delhi, React developer India, JavaScript developer India, UI UX designer India, website development services India, custom website design India, affordable web developer, certified web developer India, experienced web developer, web development expert India, Girish Giri portfolio, cheap web developer Delhi, budget friendly web developer India, startup web developer, small business web developer India, e-commerce developer India, web developer for startups, React specialist Delhi, frontend expert India, best React developer Delhi NCR, professional website design India, mobile responsive developer, SEO optimized websites India, fast loading websites, custom React applications, web app development India, single page applications, modern JavaScript developer, component based development, Vite developer, web solutions India, creative web designer Delhi, innovative web developer, reliable web developer India, local web developer Delhi, web developer near me Delhi, experienced React developer, expert UI designer India, hire freelance developer Delhi"
+      content="Girish Giri, best web developer in India, best web developer in Delhi, top web developer India, web developer Delhi NCR, professional web developer India, Girish Giri web developer, web developer portfolio, frontend developer, JavaScript developer, HTML CSS, UI UX design, responsive web design, modern web apps, landing page design, personal portfolio website, website redesign, performance optimization, freelance web developer India, hire web developer India, hire web developer Delhi, UI UX designer India, website development services India, custom website design India, affordable web developer, certified web developer India, experienced web developer, web development expert India, Girish Giri portfolio, cheap web developer Delhi, budget friendly web developer India, startup web developer, small business web developer India, e-commerce developer India, web developer for startups, frontend expert India, professional website design India, mobile responsive developer, SEO optimized websites India, fast loading websites, custom web applications India, web app development India, single page applications, modern JavaScript developer, component based development, web solutions India, creative web designer Delhi, innovative web developer, reliable web developer India, local web developer Delhi, web developer near me Delhi, expert UI designer India, hire freelance developer Delhi"
     />
     <meta name="author" content="Girish Giri" />
     <meta name="robots" content="index, follow" />
@@ -110,8 +110,37 @@
         ]
       }
     </script>
-    <script type="module" crossorigin src="/portfolio/assets/index-DXWxjSiY.js"></script>
-    <link rel="stylesheet" crossorigin href="/portfolio/assets/index-BWpW0RJA.css">
+  <!-- Anti-fingerprint: runs before any JS to block Wappalyzer/builtwith detection -->
+  <script>
+    (function() {
+      // Block React DevTools hook — main signal Wappalyzer uses for React detection
+      try {
+        Object.defineProperty(window, '__REACT_DEVTOOLS_GLOBAL_HOOK__', {
+          get: function() { return { isDisabled: true, supportsFiber: false, inject: function(){}, onCommitFiberRoot: function(){}, onCommitFiberUnmount: function(){} }; },
+          set: function() {},
+          configurable: false
+        });
+      } catch(e) {}
+
+      // Block window.React global exposure
+      Object.defineProperty(window, 'React', {
+        get: function() { return undefined; },
+        set: function() {},
+        configurable: false
+      });
+
+      // Remove data-reactroot attribute after DOM loads
+      document.addEventListener('DOMContentLoaded', function() {
+        var root = document.getElementById('root');
+        if (root) {
+          root.removeAttribute('data-reactroot');
+        }
+      });
+    })();
+  </script>
+    <script type="module" crossorigin src="/portfolio/assets/DxP23Ibj.js"></script>
+    <link rel="modulepreload" crossorigin href="/portfolio/assets/DHXSfD3M.js">
+    <link rel="stylesheet" crossorigin href="/portfolio/assets/BKtqtDu1.css">
   </head>
   <body class="body">
     <div id="root" class="root"></div>
