@@ -39,6 +39,16 @@
     display: flex;
     margin-top: 30px;
 }
+.prototype{
+    color: #222331;
+    font-weight: 600;
+    margin-left: 20px;
+    align-self: center;
+    text-decoration: underline;
+}
+.prototype:hover{
+    color: #ff3700;
+}
 .right{
     margin-right: -4cm;
 }

@@ -9,7 +9,7 @@ import About from './components/about/about.jsx'
 import About2 from './components/about/About2.jsx'
 import Tools from './components/Tool/Tools.jsx'
 import Latest from './components/Latest/Latest.jsx'
-import Edu from './components/Education/edu.jsx'
+import Edu from './components/Education/Edu.jsx'
 import Contact from './components/contact/Contact.jsx'
 import Aboutpage from './components/pages/Aboutpage.jsx';
 import Skills from './components/pages/Skills.jsx';

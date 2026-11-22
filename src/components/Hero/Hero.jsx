@@ -21,7 +21,14 @@ const Hero = () => {
                     <div className='buttons'>
                         <Link className='a' to="/projects"><button className='btn1'>View Projects</button></Link>
                         <Link className=' w' to="/contact"><button className='btn2'>Hire Me</button></Link>
-                      <Link to='https://www.figma.com/proto/VAl9t8rDwstzczMXUWzop1/Untitled?node-id=67-109&t=9KvHdRHdIhGVmHV6-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1'>Prototype</Link>
+                      <a
+                        className='prototype'
+                        href='https://www.figma.com/proto/VAl9t8rDwstzczMXUWzop1/Untitled?node-id=67-109&t=9KvHdRHdIhGVmHV6-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1'
+                        target='_blank'
+                        rel='noopener noreferrer'
+                      >
+                        Prototype
+                      </a>
                     </div>
                 </div>
             </span>

@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import './Header.css'
+import './header.css'
 import logo from '../../assets/logo.png'
 import { FaBars } from "react-icons/fa6";
 import { Link } from 'react-router-dom';
